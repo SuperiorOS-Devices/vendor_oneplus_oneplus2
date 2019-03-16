@@ -404,6 +404,49 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/oneplus/oneplus2/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/oneplus/oneplus2/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/oneplus/oneplus2/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
+    vendor/oneplus/oneplus2/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+    vendor/oneplus/oneplus2/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/oneplus/oneplus2/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
+    vendor/oneplus/oneplus2/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/oneplus/oneplus2/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/oneplus/oneplus2/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
+    vendor/oneplus/oneplus2/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
+    vendor/oneplus/oneplus2/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
@@ -422,4 +465,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     datastatusnotification \
     qcrilmsgtunnel \
+    WfdService \
+    WfdCommon \
     TimeService
