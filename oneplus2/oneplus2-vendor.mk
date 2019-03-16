@@ -403,7 +403,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/oneplus/oneplus2/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/oneplus/oneplus2/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/oneplus/oneplus2/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/oneplus/oneplus2/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/oneplus/oneplus2/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
@@ -446,7 +446,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
-    vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so 
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
